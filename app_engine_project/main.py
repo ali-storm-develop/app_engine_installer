@@ -170,7 +170,7 @@ def main(message):
         
         def start():
             if getEnabled(chat_id): #agar oldin yozgan bo'sa
-                bot.send_message(chat_id, "سلام کاربر جون  😐")
+                bot.send_message(chat_id, "سلام کاربر جوووووون  😐")
                 next_step(chat_id, 'main')
             else:
                 setEnabled(chat_id)
