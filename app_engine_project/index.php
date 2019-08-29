@@ -1,5 +1,5 @@
 <?php 
-$token = 'توکن';
+$token = '865761048:AAG2_dWZ03VjLO5Atut2sYk5nkMJMfLjptU';
 
 $json = file_get_contents('php://input');
 $telegram = urldecode ($json);
